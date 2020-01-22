@@ -9,7 +9,7 @@ In our scenario we collected data for 10 gestures. Moreover, we collected 100 sa
 After extensive collection of data, we fine-tuned the threshold to find skin-colored contours from the image. Images were originally taken in RGB scale. But to have an luminance independent scenario, we used *YCrCb* to separate the luminance (intensity) information from the color information. After finding the threshold we fine-tuned the data for pruning of any unwanted samples
 
 #### Feature Detection, Extraction and Matching
-For feature detection we used binary images. As far as feature descriptors are concerned, we used **Speeded Up Robust Features (SURF)**. As *SURF* uses integral images instead of Difference of Gaussians (DoG) to approximate Laplacian of Gaussian (LoC), it is quite faster then other major descriptors such as **Scale Invariant Feature Transform (SIFT)**. Moreover SURF is orientation-independent. After extraction of features from *SURF* we used **Bag of Words (BoG)** to cluster similar features together. 
+For feature detection we used binary images. As far as feature descriptors are concerned, we used **Speeded Up Robust Features (SURF)**. As *SURF* uses integral images instead of Difference of Gaussians (DoG) to approximate Laplacian of Gaussian (LoC), it is quite faster than other major descriptors such as **Scale Invariant Feature Transform (SIFT)**. Moreover SURF is orientation-independent. After extraction of features from *SURF* we used **Bag of Words (BoG)** to cluster similar features together. 
 
 This is how SURF descriptors look like for the gesture of Day:
  <p align="center">
