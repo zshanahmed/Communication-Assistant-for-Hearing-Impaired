@@ -33,3 +33,7 @@ The filtered text was then passed into our database and for matched words the re
 To have communication on different devices between the hearing impaired person and the normal person we followed a client-server protocol to establish the corresponding system. 
 
 ## Usage 
+1. Configure your favorite IDE with OpenCv. We used Visual studio and the information about its configuration can be found [here](https://docs.opencv.org/2.4/doc/tutorials/introduction/windows_visual_studio_Opencv/windows_visual_studio_Opencv.html). For our project we used OpenCv 2.4.10
+2. After successfully setting up path of open-cv libraries in your project. Compile and run the code named 'Hearing-Impaired-Person.cpp'. We are assuming that Hearing Impaired Person is working as Server in this Client-Server Architecture
+3. The server will be waiting for incoming connections. Compile and Run the code named 'Normal-Person.cpp'
+4. **Be sure that you have classification.xml and dictionary.yml files in your project folder**
