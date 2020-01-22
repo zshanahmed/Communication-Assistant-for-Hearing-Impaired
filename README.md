@@ -1,0 +1,2 @@
+# Communication-of-Hearing-Impaired
+A bi-directional communication assistant designed to facilitate communication between a hearing impaired person and a normal person. The system involves conversion of hand gestures used by hearing impaired persons into human readable text for a normal person to read. We have used SURF Feature Detector for collection of useful features in our dataset. Moreover we have used Bag-of-Words to build a descriptive dictionary based on those distinguishing features.
